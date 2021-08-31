@@ -1,2 +1,3 @@
 # first-class-types
-It's time that data-types were more than 'string' or 'number'
+
+Because it's time that types were more than 'string' and 'number'.
