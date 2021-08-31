@@ -1,15 +1,20 @@
 {
-  "name": "first-class-types",
-  "version": "0.0.1",
+  "name": "first-class-fields",
+  "version": "0.0.2",
   "description": "Because it's time that types were more than 'string' and 'number'.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tcs"
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
   },
   "devDependencies": {
-    "jest": "^26.6.3"
-  },
-  "license": "MIT"
+    "typescript": "^4.4.2",
+    "@types/jest": "^27.0.1",
+    "ts-jest": "^27.0.5",
+    "jest": "^27.1.0"
+  }
 }

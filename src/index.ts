@@ -1,4 +1,3 @@
 
- export module FCT {
 
-}
+export { BytesPerSecond } from "./typetree/Numeric/BytesPerSecond";
